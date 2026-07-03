@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f7fbff" />
+  <title>CAncerImaginG (CAIG) Lab | IIT Mandi</title>
+
+  <link rel="icon" type="image/png" href="img/weblogo.png" />
+  <link rel="preload" href="img/A_home_0.jpg" as="image" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#home">Skip to content</a>
+
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="CAncerImaginG (CAIG) Lab Home">
+        <span class="brand-mark" aria-hidden="true">
+          <img class="brand-logo" src="img/CAIG-logo.jpg" alt="" />
+        </span>
+
+        <span class="brand-text">
+          <span class="brand-title">CAncerImaginG</span>
+          <span class="brand-subtitle">CAIG - Lab</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Open menu">
+        <span class="nav-toggle-lines" aria-hidden="true"></span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <a class="nav-link is-active" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#announcements">News</a>
+        <a class="nav-link" href="#research">Research</a>
+        <a class="nav-link" href="#team">Team</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero" aria-label="Welcome">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <div class="hero-copy reveal">
+
+          <h1 class="hero-title">
+            <span class="hero-underline">Welcome to the<br>CAncerImaginG<br>CAIG - Lab</span>
+            <span class="hero-small">Pioneering Excellence in<br>Cancer Imaging Analysis</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            We develop AI-driven medical imaging tools that transform multimodal scans and biomarkers into quantitative insights for cancer diagnosis, risk stratification & treatment-response assessment.
+          </p>
+
+          <div class="hero-chips" aria-label="Key areas">
+            <span class="chip">Quantitative Imaging</span>
+            <span class="chip">Multimodal Fusion</span>
+            <span class="chip">AI Diagnostic Models</span>
+          </div>
+
+        
+        </div>
+
+        <div class="hero-media reveal" aria-label="Imaging modalities">
+          <div class="scan-grid">
+            <figure class="scan-card">
+              <img src="img/A_home_1.png" alt="MRI brain scan" loading="eager" />
+              <figcaption>
+                <span class="scan-tag">MRI</span>
+                <span class="scan-title">Soft-tissue contrast</span>
+              </figcaption>
+            </figure>
+            <figure class="scan-card">
+              <img src="img/A_home_2.png" alt="CT scan" loading="eager" />
+              <figcaption>
+                <span class="scan-tag">CT</span>
+                <span class="scan-title">Anatomy & staging</span>
+              </figcaption>
+            </figure>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="wave" aria-hidden="true">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+          <path d="M0,48 C120,72 240,96 360,96 C480,96 600,72 720,60 C840,48 960,48 1080,60 C1200,72 1320,96 1440,84 L1440,120 L0,120 Z" fill="var(--bg)" />
+        </svg>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2>About</h2>
+          <p>
+            CancerImaging-Lab is a leading research facility dedicated to advancing the field of cancer imaging. With a multidisciplinary team of experts, cutting-edge technology, and a passion for innovation, we are committed to improving early detection, diagnosis, and treatment monitoring of cancer.
+            <br><br>
+            Our mission is to develop and implement novel imaging techniques that empower healthcare professionals to better understand and manage cancer. We strive to make a meaningful impact on patient care by providing accurate, timely, and personalized imaging solutions.
+          </p>
+
+        </header>
+
+          <div class="about-visual reveal">
+            <div class="glass">
+              <div class="glass-img">
+                <img src="img/B_about_1.png" alt="Cancer imaging example" loading="eager" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ANNOUNCEMENTS -->
+    <section id="announcements" class="section announcements-section">
+      <div class="container">
+        <header class="section-head announcements-head reveal">
+          <h2 data-announcements-heading>Recent News</h2>
+        </header>
+
+        <div class="tabs announcements-tabs reveal" data-tabs="announcements">
+          <div class="tablist" role="tablist" aria-label="Announcements tabs">
+            <button class="tab is-active" role="tab" aria-selected="true" aria-controls="ann-all" id="ann-all-btn" data-tab="all">All</button>
+            <button class="tab" role="tab" aria-selected="false" aria-controls="ann-paper" id="ann-paper-btn" data-tab="paper">Paper</button>
+            <button class="tab" role="tab" aria-selected="false" aria-controls="ann-alumni" id="ann-alumni-btn" data-tab="alumni">Alumni</button>
+          </div>
+
+          <div class="tabpanels">
+            <div class="tabpanel is-active" role="tabpanel" id="ann-all" aria-labelledby="ann-all-btn" data-panel="all">
+              <ul class="ann-list" data-announcements-list="all"></ul>
+            </div>
+            <div class="tabpanel" role="tabpanel" id="ann-paper" aria-labelledby="ann-paper-btn" data-panel="paper" hidden>
+              <ul class="ann-list" data-announcements-list="paper"></ul>
+            </div>
+            <div class="tabpanel" role="tabpanel" id="ann-alumni" aria-labelledby="ann-alumni-btn" data-panel="alumni" hidden>
+              <ul class="ann-list" data-announcements-list="alumni"></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESEARCH -->
+    <section id="research" class="section section-alt">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2>Our Research</h2>
+          <p>Explore the key areas, publications, and sponsored projects driving our work in AI for medical imaging.</p>
+        </header>
+
+        <div class="tabs reveal" data-tabs>
+          <div class="tablist" role="tablist" aria-label="Research tabs">
+            <button class="tab is-active" role="tab" aria-selected="true" aria-controls="tab-tech" id="tab-tech-btn" data-tab="tech">Key Areas</button>
+            <button class="tab" role="tab" aria-selected="false" aria-controls="tab-pubs" id="tab-pubs-btn" data-tab="pubs">Publications</button>
+            <button class="tab" role="tab" aria-selected="false" aria-controls="tab-proj" id="tab-proj-btn" data-tab="proj">Projects</button>
+          </div>
+
+          <div class="tabpanels">
+            <!-- TECHNOLOGIES -->
+            <div class="tabpanel is-active" role="tabpanel" id="tab-tech" aria-labelledby="tab-tech-btn" data-panel="tech">
+              <div class="card-grid" data-research-areas></div>
+            </div>
+
+            <!-- PUBLICATIONS -->
+            <div class="tabpanel" role="tabpanel" id="tab-pubs" aria-labelledby="tab-pubs-btn" data-panel="pubs" hidden>
+              <div class="pub-filter-bar" aria-label="Publication filters">
+                <div class="pub-filter-group" data-publication-year-filters></div>
+                <div class="pub-filter-group" data-publication-type-filters></div>
+              </div>
+              <div class="list-card">
+                <ol class="pub-list" data-publication-list="all"></ol>
+              </div>
+            </div>
+
+            <!-- PROJECTS -->
+            <div class="tabpanel" role="tabpanel" id="tab-proj" aria-labelledby="tab-proj-btn" data-panel="proj" hidden>
+              <div class="card-grid" data-research-projects></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEAM -->
+    <section id="team" class="section">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2>Meet our team</h2>
+          <p>Introducing the faculty lead and research group working together to develop AI for medical imaging.</p>
+        </header>
+
+        <div data-members-root></div>
+        <div data-group-gallery-root></div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2>Contact & Collaborate</h2>
+          <p>Work with us, explore partnerships, or reach out for collaborations. <br>Together, we can transform the future of cancer care through innovative imaging solutions.</p>
+        </header>
+
+        <div class="contact-grid">
+          <div class="contact-card reveal">
+            <h3>Work with us</h3>
+            <p class="muted">We welcome motivated students interested in AI for medical imaging.</p>
+            <ul class="bullets">
+              <li>Post-graduate projects & thesis supervision</li>
+              <li>Research internships</li>
+              <li>Open-source contributions and dataset curation</li>
+            </ul>
+          </div>
+
+          <div class="contact-card reveal">
+            <h3>Partnerships & collaboration</h3>
+            <p class="muted">We collaborate with hospitals, labs, and industry partners on clinically grounded problems.</p>
+            <ul class="bullets">
+              <li>Multi-site validation studies</li>
+              <li>Translational AI prototypes</li>
+              <li>Joint grants and publications</li>
+            </ul>
+          </div>
+          <div class="contact-card reveal">
+            <h3>Contact</h3>
+            <p>
+              <strong>Email:</strong>
+              <a href="mailto:sneha@iitmandi.ac.in">sneha@iitmandi.ac.in</a>
+            </p>
+            <p class="muted">
+              <strong>Address:</strong><br />
+              Indian Institute of Technology Mandi,<br />
+              SCEE A-17 Building, North Campus,<br />
+              Mandi, Himachal Pradesh (175005)
+            </p>
+          </div>
+          <div class="map-card reveal" aria-label="IIT Mandi location map">
+            <h3>Find us at IIT Mandi</h3>
+            <div class="map-embed">
+              <iframe
+                title="IIT Mandi on Google Maps"
+                src="https://www.google.com/maps?hl=en&z=16&t=k&q=IIT+Mandi+Kamand+Campus&output=embed"
+                loading="eager"
+                referrerpolicy="no-referrer-when-downgrade"
+                allowfullscreen>
+              </iframe>
+            </div>
+
+            <a class="map-link" href="https://www.google.com/maps?q=IIT+Mandi+Kamand+Campus" target="_blank" rel="noopener noreferrer">
+              Open in Google Maps →
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <div class="footer-brand-row">
+          <span class="footer-brand-mark" aria-hidden="true">
+            <img class="footer-brand-logo" src="img/CAIG-logo.jpg" alt="" />
+          </span>
+          <div class="footer-brand-copy">
+            <div class="footer-brand">CAncerImaginG (CAIG) Lab</div>
+            <div class="footer-note muted">Pioneering Excellence in Cancer Imaging Analysis.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-right">
+        <div class="social" aria-label="Social links">
+          <a class="social-link" href="mailto:sneha@iitmandi.ac.in" aria-label="Email">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none"><path d="M4 6h16v12H4z" stroke="currentColor" stroke-width="2"/><path d="M4 7l8 6 8-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a class="social-link" href="https://www.linkedin.com/groups/14620613/" aria-label="LinkedIn" target="_blank"  rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none"><path d="M6.5 6.5a1.5 1.5 0 1 1-3 0a1.5 1.5 0 0 1 3 0Z" fill="currentColor"/><path d="M4 9h2.7v11H4z" fill="currentColor"/><path d="M10 9h2.6v1.5h.04c.36-.68 1.24-1.9 3.1-1.9 3.3 0 3.9 2.2 3.9 5v6.4H17V14.3c0-1.4 0-3.2-2-3.2s-2.3 1.5-2.3 3.1V20H10z" fill="currentColor"/></svg>
+          </a>
+          <a class="social-link" href="https://github.com/CAIG-lab" aria-label="GitHub" target="_blank"  rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.77.6-3.35-1.17-3.35-1.17-.45-1.14-1.1-1.45-1.1-1.45-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.64.35-1.08.64-1.32-2.21-.25-4.54-1.1-4.54-4.9 0-1.08.39-1.97 1.03-2.66-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.6 9.6 0 0 1 5 0c1.9-1.29 2.74-1.02 2.74-1.02.55 1.38.2 2.4.1 2.65.64.69 1.03 1.58 1.03 2.66 0 3.81-2.34 4.65-4.57 4.9.36.31.69.92.69 1.86v2.76c0 .27.18.58.69.48A10 10 0 0 0 12 2Z" fill="currentColor" opacity=".9"/></svg>
+          </a>
+          <a class="social-link" href="#" aria-label="YouTube" target="_blank"  rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none"><path d="M21.6 7.2a3 3 0 0 0-2.1-2.1C17.7 4.6 12 4.6 12 4.6s-5.7 0-7.5.5A3 3 0 0 0 2.4 7.2 31 31 0 0 0 2 12a31 31 0 0 0 .4 4.8 3 3 0 0 0 2.1 2.1c1.8.5 7.5.5 7.5.5s5.7 0 7.5-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 22 12a31 31 0 0 0-.4-4.8Z" fill="currentColor" opacity=".9"/><path d="M10.2 15.3V8.7L15.8 12l-5.6 3.3Z" fill="var(--bg)"/></svg>
+          </a>
+          
+        </div>
+        <div class="copyright">© <span id="year">2026</span> CAncerImaginG (CAIG) Lab. All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
+  <script src="data/publications.js" defer></script>
+  <script src="data/news.js" defer></script>
+  <script src="data/research.js" defer></script>
+  <script src="data/members.js" defer></script>
+  <script src="data/group.js" defer></script>
+  <script src="main.js" defer></script>
+</body>
+</html>
